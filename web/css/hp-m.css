@@ -1,0 +1,517 @@
+
+p h4 h5 {
+    color: #1a1a1a; /* noir gris */
+}
+
+/* --------------------------------------------------- HEADER MOBILE---------------*/
+
+header {
+    display: flex;
+    background-image: url('../img/fond_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+header .hearder-centre {
+    text-align: center;
+    width: 100%;
+}
+
+header h1.header-nom, header h2.header-fonction {
+    color: #fff;
+}
+
+header h1.header-nom {
+    font-family: Champagne Bolt;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    padding: 0 60px;
+}
+
+header h2.header-fonction {
+    font-family: DIN-Light;
+    font-size: 20px;
+}
+
+header .logo-blanc {
+    height: 180px;
+    padding-bottom: 20px;
+}
+
+.header .bloc-droite {
+    display: none;
+}
+
+header .etoile-b img {
+    width: 25px;
+}
+
+
+/* -----------------------------------------------------NAV MOBILE----------*/
+
+
+nav {
+    position: absolute;
+    width: 100%;
+    font-family: Champagne;
+
+}
+
+nav.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+
+    width: 100%;
+    height: 80px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+nav ul li.nav-projet {
+    background-color: #96c4aa;
+}
+
+nav ul li.nav-profil {
+    background-color: #043a1b;
+}
+
+nav ul li.nav-contact {
+    background-color: #c7d9e8;
+}
+
+nav ul li.nav-projet a, nav ul li.nav-contact a {
+    color: #000;
+}
+
+nav ul li.nav-profil a {
+    color: #fff;
+}
+
+.logo-home {
+    display: none;
+}
+
+/* --------------------------------------------------- PROJET MOBILE---------------*/
+
+.plante-projets {
+    position: absolute;
+    right: 0;
+    width: 170px;
+    z-index: -99;
+}
+
+
+main .projet-etoile {
+    margin-top: 10vh;
+}
+main .projet-etoile, .profil-etoile {
+    margin: 0;
+    padding-top: 80px;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 0px;
+}
+
+main .projet-etoile img, .profil-etoile img {
+    width: 30px;
+    height: 100%;
+    padding: 0 10px;
+}
+
+h3 {
+    font-family: Champagne;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.conteneur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+
+main a {
+    text-decoration: none;
+    color: #000;
+}
+
+main p {
+    text-align: center;
+    font-family: DIN-Light;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 20px 30px 20px 30px;
+}
+
+
+.mosaique {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.img-mozaik.willow, .img-mozaik.biomimetisme {
+    padding-bottom: 30px;
+    background-color: #ccbaa3;
+}
+
+.img-mozaik.maya, .img-mozaik.gaia {
+    padding-bottom: 30px;
+    background-color: #96c4aa;
+}
+
+.img-mozaik.polar, .img-mozaik.india {
+    padding-bottom: 30px;
+    background-color: #a47c52;
+}
+
+.img-mozaik img {
+    width: 100%;
+}
+
+.deroulement {
+    background-color: #96c4aa;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0
+}
+
+.deroulement img {
+    width: 70px;
+}
+
+
+.bouton-behance {
+    background-color: #0077fb;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton-behance img {
+    width: 145px;
+}
+
+
+/* -----------------------------------------------------PROFIL Mobile----------*/
+
+.plante-profil img {
+    position: absolute;
+    left: 0;
+    width: 170px;
+    z-index: -99;
+}
+
+.plante-profil-ordi img {
+    display: none;
+}
+
+.profil-etoile {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.conteneur2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+
+.logiciel {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 50px;
+    margin: 10px;
+
+}
+
+.logiciel img {
+    height: 22px;
+    padding: 15px 18px;
+}
+
+
+.timeline {
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background-image: url('../img/fond-plume.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#fgauche, #fdroite {
+    position: absolute;
+    top: 250px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 0%, 0.25);
+}
+
+#fgauche {
+    left: 5px;
+    display: none;
+}
+
+#fdroite {
+    right: 5px;
+}
+
+#slide {
+    position: absolute;
+    left: 0vw;
+    display: flex;
+    justify-content: flex-start;
+    transition: left 0.25s;
+}
+
+.timeline-bloc {
+    width: 100vw;
+    min-height: 350px;
+}
+
+.timeline .nom {
+    display: flex;
+    height: 250px;
+    padding: 40px 10px 0 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    border-bottom: 1px dashed black;
+}
+
+.timeline .nom div:first-child {
+    text-align: center;
+}
+
+.timeline .nom img {
+    width: 55px;
+    padding-bottom: 15px;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    color: #043a1b;
+    width: 70px;
+}
+
+h4 {
+    font-family: "Champagne";
+    font-size: 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-family: "din-Pro-Light";
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+h5 {
+    font-family: "DIN-Medium";
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+
+}
+
+p.annee {
+    font-family: "din-Pro-Light";
+    text-align: center;
+    color: #043a1b;
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+}
+
+.timeline .timeline-etoile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline .timeline-etoile img {
+    width: 30px;
+    position: absolute;
+}
+
+button {
+    font-family: "Champagne Bolt";
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    width: 100%;
+}
+
+button.cv {
+    background-color: #043a1b;
+    color: white;
+}
+
+button.book {
+    background-color: #ccbaa3;
+    color: #1a1a1a;
+
+}
+
+
+/* -----------------------------------------------------Contact Mobile----------*/
+
+
+.conteneur3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.profil-etoile {
+    position: relative;
+}
+
+.plante-contact-haut {
+    position: absolute;
+    right: 0;
+    bottom: -54px;
+    z-index: -99;
+}
+
+.plante-contact-haut img {
+    width: 300px;
+    padding: 0;
+}
+
+
+.adresse {
+    width: 100%;
+    padding-top: 50px;
+
+
+}
+
+.tel, .ville, .mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.bloc-adresse-haut {
+    display: flex;
+    flex-direction: wrap;
+    width: auto;
+}
+
+
+.tel {
+    background-color: #96c4aa; /* vert clair */
+    width: 50%;
+}
+
+.ville {
+    background-color: #825a37; /* marron */
+    width: 50%;
+
+}
+
+.mail {
+    background-color: #c7d9e8; /* bleu clair */
+}
+
+
+.tel img, .ville img {
+    width: 70px;
+}
+
+.mail img {
+    width: 80px;
+}
+
+.contact-reseaux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.contact-reseaux img {
+    width: 80px;
+    padding: 20px;
+}
+
+footer {
+    margin-bottom: 20px;
+    color: #979797; /* gris */
+}
+
+.capitol, .plante-contact-bas {
+    display: none;
+}
+
+
+
