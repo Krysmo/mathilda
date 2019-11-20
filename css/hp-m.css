@@ -1,4 +1,29 @@
 
+@font-face {
+    font-family: "Champagne Bolt";
+    src: url('../fonts/Champagne-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Champagne";
+    src: url('../fonts/Champagne.ttf');
+}
+
+@font-face {
+    font-family: "DIN-Light";
+    src: url('../fonts/din-light.ttf');
+}
+
+@font-face {
+    font-family: "din-Pro-Light";
+    src: url('../fonts/din-Pro-Light.otf');
+}
+
+@font-face {
+    font-family: "DIN-Medium";
+    src: url('../fonts/din-medium.otf');
+}
+
 p h4 h5 {
     color: #1a1a1a; /* noir gris */
 }
@@ -208,6 +233,7 @@ main p {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
     position: absolute;
     bottom: 0
@@ -217,19 +243,6 @@ main p {
     width: 70px;
 }
 
-
-.bouton-behance {
-    background-color: #0077fb;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bouton-behance img {
-    width: 145px;
-}
 
 
 /* -----------------------------------------------------PROFIL Mobile----------*/
@@ -285,17 +298,18 @@ main p {
 
 #fgauche, #fdroite {
     position: absolute;
-    top: 250px;
+    top: 220px;
     width: 70px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    font-weight: bold;
     cursor: pointer;
-    border-radius: 50%;
-    background-color: hsla(0, 0%, 0%, 0.25);
+}
+
+#fgauche img, #fdroite img{
+    width: 35px;
 }
 
 #fgauche {
@@ -322,8 +336,8 @@ main p {
 
 .timeline .nom {
     display: flex;
-    height: 250px;
-    padding: 40px 10px 0 10px;
+    height:200px;
+    padding: 55px 10px 0 10px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
