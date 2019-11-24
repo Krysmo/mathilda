@@ -1,0 +1,117 @@
+
+/* -----------------------------------------------------img + titre----------*/
+
+.plante-haut {
+    position: absolute;
+    right: 0;
+    width: 170px;
+    z-index: -99;
+}
+
+
+.titre-etoile img {
+    width: 30px;
+    height: 100%;
+    padding: 0 10px;
+}
+
+h1 {
+    font-family: Champagne;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.conteneur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-top: 30px;
+
+}
+
+/* -----------------------------------------------------Contenu information----------*/
+
+.contenu-info-texte{
+	margin: 20px 10%;
+}
+
+.bloc-color{
+	display: flex;
+    align-items: center;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+h2{
+	font-family: Champagne;
+    color: white;
+    background-color: #825a37; /* marron */
+    padding: 20px;
+    margin:0;
+    font-size: 26px;
+    letter-spacing: 1px;
+
+}
+
+strong{
+	 font-family: "DIN-Medium";
+	 font-size: 20px;
+}
+
+p{
+	 font-family: "din-Pro-Light";
+	 margin: 10px 0;
+	 font-size: 20px;
+	 text-align: justify;
+}
+
+.outils img {
+    height: 28px;
+    padding: 13px 10px;
+    margin-bottom: 20px;
+}
+
+.description{
+	padding: 20px 0;
+	border-top: 1px dashed black;
+}
+
+
+/* -----------------------------------------------------galerie----------*/
+
+
+/* -----------------------------------------------------Autres projets----------*/
+
+h3{
+	font-family: Champagne;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 20px 10%;
+}
+
+.autres-projets  {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.autres-projets img {
+    width: 100%;
+}
+
+.autres-projets.india {
+    padding-bottom: 30px;
+    background-color: #a47c52;
+}
+
+.autres-projets.willow {
+    padding-bottom: 30px;
+    background-color: #96c4aa;
+}
+
+.autres-projets.polar{
+    display: none;
+}

@@ -1,32 +1,5 @@
 
-@font-face {
-    font-family: "Champagne Bolt";
-    src: url('../fonts/Champagne-Bold.ttf');
-}
 
-@font-face {
-    font-family: "Champagne";
-    src: url('../fonts/Champagne.ttf');
-}
-
-@font-face {
-    font-family: "DIN-Light";
-    src: url('../fonts/din-light.ttf');
-}
-
-@font-face {
-    font-family: "din-Pro-Light";
-    src: url('../fonts/din-Pro-Light.otf');
-}
-
-@font-face {
-    font-family: "DIN-Medium";
-    src: url('../fonts/din-medium.otf');
-}
-
-p h4 h5 {
-    color: #1a1a1a; /* noir gris */
-}
 
 /* --------------------------------------------------- HEADER MOBILE---------------*/
 

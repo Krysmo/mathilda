@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) {
+
+/* -----------------------------------------------------img + titre----------*/
+
+	.plante-haut {
+	    width: 320px;
+	}
+
+	h1 {
+    font-size: 80px;
+	}
+
+	.conteneur{
+	  justify-content: left;
+	  margin-left: 10%;
+	}
+
+
+/* -----------------------------------------------------Contenu information----------*/
+
+	.contenu-info-texte{
+		display: flex;
+	    flex-direction: row;
+	    margin: 0 auto;
+	    overflow: hidden;
+	    position: relative;
+	    margin: 50px 10%;
+	}
+	.information, .description{
+		width: 50%;
+		padding: 10px 40px 0px 40px;
+
+	}
+
+	h2{
+	    padding: 20px;
+	    font-size: 30px;
+	}
+
+	strong{
+		 font-size: 25px;
+	}
+
+	p{
+		 font-size: 22px;
+	}
+
+	.outils img {
+    height: 30px;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 20px;
+	}
+
+	.description{
+		border-top: none;
+		border-left: 1px dashed black;
+	}
+
+/* -----------------------------------------------------galerie----------*/
+
+
+/* -----------------------------------------------------Autres projets----------*/
+
+
+	.autres-projets.polar{
+	    display: flex;
+	}
+
+	.autres-projets.polar {
+	    padding-bottom: 30px;
+        background-color: #ccbaa3; /* beige */
+	}
+
+}
