@@ -1,5 +1,8 @@
 
 /* -----------------------------------------------------img + titre----------*/
+a{
+    text-decoration: none;
+}
 
 .plante-haut {
     position: absolute;
@@ -17,7 +20,7 @@
 
 h1 {
     font-family: Champagne;
-    font-size: 50px;
+    font-size: 28px;
     letter-spacing: 2px;
 }
 
@@ -33,18 +36,18 @@ h1 {
 /* -----------------------------------------------------Contenu information----------*/
 
 .contenu-info-texte{
-	margin: 20px 10%;
+    margin: 20px 10%;
 }
 
 .bloc-color{
-	display: flex;
+    display: flex;
     align-items: center;
     width: auto;
     margin-bottom: 20px;
 }
 
 h2{
-	font-family: Champagne;
+    font-family: Champagne;
     color: white;
     background-color: #825a37; /* marron */
     padding: 20px;
@@ -55,15 +58,15 @@ h2{
 }
 
 strong{
-	 font-family: "DIN-Medium";
-	 font-size: 20px;
+    font-family: "DIN-Medium";
+    font-size: 20px;
 }
 
 p{
-	 font-family: "din-Pro-Light";
-	 margin: 10px 0;
-	 font-size: 20px;
-	 text-align: justify;
+    font-family: "din-Pro-Light";
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .outils img {
@@ -73,8 +76,8 @@ p{
 }
 
 .description{
-	padding: 20px 0;
-	border-top: 1px dashed black;
+    padding: 20px 0;
+    border-top: 1px dashed black;
 }
 
 
@@ -84,7 +87,7 @@ p{
 /* -----------------------------------------------------Autres projets----------*/
 
 h3{
-	font-family: Champagne;
+    font-family: Champagne;
     font-size: 35px;
     letter-spacing: 1px;
     margin: 20px 10%;

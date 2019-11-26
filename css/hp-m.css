@@ -121,29 +121,18 @@ main p {
     position: relative;
 }
 
-.img-mozaik.willow, .img-mozaik.india {
+.img-mozaik {
     padding-bottom: 30px;
-    background-color: #ccbaa3;
-}
-
-.img-mozaik.maya, .img-mozaik.biomimetisme {
-    padding-bottom: 30px;
-    background-color: #96c4aa;
-}
-
-.img-mozaik.polar, .img-mozaik.gaia, .img-mozaik.CMCAS {
-    padding-bottom: 30px;
-    background-color: #a47c52;
 }
 
 .img-mozaik img {
     width: 100%;
 }
 
-    .img-mozaik .middle {
-   display: none;
-        
-    }
+.img-mozaik .middle {
+    display: none;
+
+}
 
 .deroulement {
     background-color: #96c4aa;
@@ -429,7 +418,7 @@ button.book {
 
 
 .tel img, .ville img {
-     width: 55px
+    width: 55px
 }
 
 .mail img {

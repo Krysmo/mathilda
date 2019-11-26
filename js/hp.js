@@ -45,6 +45,13 @@ $(window).on("load", function () {
         }
     })
 
+    $("a.boutonScrollSmouth").click(function () {
+        var ancre = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(ancre).offset().top
+        }, 500);
+    })
+
 });
 
 

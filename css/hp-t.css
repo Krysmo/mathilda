@@ -51,7 +51,7 @@
         display: flex;
         width: 100%;
         height: 50%;
-        
+
     }
 
     .header .bloc-droite .bloc-projet {
@@ -75,7 +75,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
     }
 
 
@@ -103,7 +103,7 @@
     .header .bloc-droite .bloc-cv a{
         color: #fff; /* blanc */
     }
-    
+
     .bloc-reseau {
         height: 50%;
         display: flex;
@@ -186,9 +186,9 @@
     }
 
 
-    
+
     /* -----------------------------------------------------PROJET tablette/desktop----------*/
-    
+
 
     h3 {
         font-size: 80px;
@@ -214,7 +214,7 @@
     .img-mozaik:hover img{
         -webkit-filter: grayscale(100%);
         transition:all 0.3s;
-    } 
+    }
 
 
     .img-mozaik .middle {
@@ -231,7 +231,7 @@
         justify-content: center;
         width: 65%;
         height: 55%;
-        
+
     }
 
     .img-mozaik:hover .middle {
@@ -240,15 +240,15 @@
     }
 
     .text {
-      font-family: "Champagne";
-      color: white;
-      font-size: 30px;
-      letter-spacing: 1px;
+        font-family: "Champagne";
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
     }
 
     img.bouton-etoile {
-         width: 26%;
-         padding-bottom: 20px;
+        width: 26%;
+        padding-bottom: 20px;
     }
 
     .img-mozaik .middle .cadre{
@@ -316,7 +316,7 @@
     .timeline {
         background-position: center;
     }
-    
+
 
     .timeline-bloc {
         width: 33.3vw;

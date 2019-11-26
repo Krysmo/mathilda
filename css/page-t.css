@@ -1,54 +1,66 @@
 @media screen and (min-width: 768px) {
 
-/* -----------------------------------------------------img + titre----------*/
+	/* -----------------------------------------------------img + titre----------*/
 
 	.plante-haut {
-	    width: 320px;
+		width: 320px;
 	}
 
 	h1 {
-    font-size: 80px;
+		font-size: 80px;
 	}
 
 	.conteneur{
-	  justify-content: left;
-	  margin-left: 10%;
+		justify-content: left;
 	}
 
 
-/* -----------------------------------------------------Contenu information----------*/
+	.site-main{
+		margin: auto;
+		max-width: 1190px;
+		padding: 0 50px;
+	}
+	/* -----------------------------------------------------Contenu information----------*/
 
 	.contenu-info-texte{
 		display: flex;
-	    flex-direction: row;
-	    margin: 0 auto;
-	    overflow: hidden;
-	    position: relative;
-	    margin: 50px 10%;
+		flex-direction: row;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+		margin: 50px 0;
 	}
-	.information, .description{
+	.information{
 		width: 50%;
-		padding: 10px 40px 0px 40px;
+		padding: 10px 40px 0px 0px;
+	}
 
+	.galerie{
+		margin: 120px 0px;
+	}
+
+	.description{
+		width: 50%;
+		padding: 10px 0px 0px 40px;
 	}
 
 	h2{
-	    padding: 20px;
-	    font-size: 30px;
+		padding: 20px;
+		font-size: 30px;
 	}
 
 	strong{
-		 font-size: 25px;
+		font-size: 25px;
 	}
 
 	p{
-		 font-size: 22px;
+		font-size: 22px;
 	}
 
 	.outils img {
-    height: 30px;
-    padding: 10px 10px 0 10px;
-    margin-bottom: 20px;
+		height: 30px;
+		padding: 10px 10px 0 10px;
+		margin-bottom: 20px;
 	}
 
 	.description{
@@ -56,19 +68,19 @@
 		border-left: 1px dashed black;
 	}
 
-/* -----------------------------------------------------galerie----------*/
+	/* -----------------------------------------------------galerie----------*/
 
 
-/* -----------------------------------------------------Autres projets----------*/
+	/* -----------------------------------------------------Autres projets----------*/
 
 
 	.autres-projets.polar{
-	    display: flex;
+		display: flex;
 	}
 
 	.autres-projets.polar {
-	    padding-bottom: 30px;
-        background-color: #ccbaa3; /* beige */
+		padding-bottom: 30px;
+		background-color: #ccbaa3; /* beige */
 	}
 
 }
