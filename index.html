@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="css/hp-m.css">
     	<link rel="stylesheet" href="css/hp-t.css">
     	<link rel="stylesheet" href="css/font.css">
+    	<link rel="stylesheet" href="css/nav-m.css">
+    	<link rel="stylesheet" href="css/nav-t.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/hp.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
@@ -35,36 +37,41 @@
 		</header>
 		<div class="bloc-droite">
 			<div class="bloc-haut">
-
-				<div class="bloc-projet">
+				 
+			 	<a class="bloc-projet" href="#ancre-projet">
 					<img src="img/icone-projet.png"> 
-					<div class="bloc-icone-projet">Projets</div>
-				</div>
+					<div class="bloc-icone-projet" style="color: #1a1a1a">Projets </div>
+				</a>
 
-				<div class="bloc-cv">
+				<a class="bloc-cv" href="#ancre-profil">
 					<img src="img/icone-cv.png">
 					<div class="bloc-icone-cv">CV</div>
-				</div>
+				</a> 
 			</div>
 
 			<div class="bloc-bas">
 				<div class="bloc-all">
 					<div class="bloc-reseau">
-							<a class="bloc-insta" href="https://www.instagram.com/mathyldaigouy/" target="_blank"><img src="img/insta.png"></a>
+							<a class="bloc-insta" href="https://www.instagram.com/mathyldaigouy/" target="_blank">
+								<img src="img/insta.png">
+							</a>
 
 						
-							<a class="bloc-link" href="https://www.linkedin.com/in/mathilda-aigouy-a718b4b1/" target="_blank"><img src="img/link.png"></a>
+							<a class="bloc-link" href="https://www.linkedin.com/in/mathilda-aigouy-a718b4b1/" target="_blank">
+								<img src="img/link.png">
+							</a>
 								
 					</div>
+						<a class="bloc-behance" href=" https://www.behance.net/mathildaaif0c0" target="_blank">
+							<img src="img/behance.png">
+						</a>
+					</div>
 
-						<a class="bloc-behance" href=" https://www.behance.net/mathildaaif0c0" target="_blank"><img src="img/behance.png"></a>
-	
-				</div>
-
-				<div class="bloc-contact">
-					<img src="img/icone-contact.png">
-					<div class="bloc-icone-contact">Contact</div>
-				</div>
+					<a class="bloc-contact" href="#ancre-contact">
+						<img src="img/icone-contact.png">
+						<div class="bloc-icone-contact" style="color: #1a1a1a">Contact
+						</div>
+					</a> 
 
 			</div>
 		</div>
@@ -73,22 +80,21 @@
 
 	<nav>                                 <!-- --------nav----------- -->
 		<ul>
-	        <li class="nav-projet"> <a href="#">Projets</a> </li>
-	        <li class="nav-profil"> <a href="#">Profil</a></li>
-	        <li class="nav-contact"> <a href="#">Contact</a> </li>
+	   		 <a href="#ancre-projet"> <li class="nav-projet" style="color: #1a1a1a"> Projets </li> </a>
+	        <a href="#ancre-profil"> <li class="nav-profil" style="color: #fff"> Profil </li></a>
+	        <a href="#ancre-contact"> <li class="nav-contact" style="color: #1a1a1a"> Contact </li></a>
       	</ul>
 	</nav>
 
 	<div class="logo-home">                   <!-- --------LOGO----------- -->	
-		<img class="logo-noir" src="img/logo-noir.png">
-		<img class="logo-be" src="img/be-color.png">
-		<img class="logo-in" src="img/in-color.png">
-		<img class="logo-instagram" src="img/instagram-color.png">
-
+		<a  href="#" ><img class="logo-noir" src="img/logo-noir.png"></a>
+		<a  href=" https://www.behance.net/mathildaaif0c0" target="_blank"><img class="logo-be" src="img/be-color.png"></a>
+		<a  href="https://www.linkedin.com/in/mathilda-aigouy-a718b4b1/" target="_blank"><img class="logo-in" src="img/in-color.png"></a>
+		<a href="https://www.instagram.com/mathyldaigouy/" target="_blank"><img class="logo-instagram"src="img/instagram-color.png".png"></a>
 	</div>
 
 
-	<main> 
+	<main id="ancre-projet"> 
 
 		<img class="plante-projets" src="img/plante-projets.png">
 
@@ -111,35 +117,70 @@
 		</p>
 
 		<div class="mosaique">
-			
+
 			<div class="img-mozaik maya">
-	<a href="#" target="_blank"><img src="img/maya.png"></a>
-				
-				<div class="mosaik-titre">
-	  				<div class="overlay">Logotype Maya</div>
-				</div>
+			  <a href="#"><img src="img/maya.png"" style="width:100%">
+				  <div class="middle" style="background-color: #96c4aa;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">Maya</div>
+				  </div></a>
 			</div>
+
 			<div class="img-mozaik willow">
-				<img src="img/willow.png">
+			  <a href="#"><img src="img/willow.png"" style="width:100%">
+				  <div class="middle" style="background-color: #ccbaa3;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">Willow</div>
+				  </div></a>
 			</div>
+
 			<div class="img-mozaik polar">
-				<img src="img/polar.png">
+			  <a href="#"><img src="img/polar.png"" style="width:100%">
+				  <div class="middle" style="background-color: #825a37;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">Quai du polar</div>
+				  </div></a>
 			</div>
+
 			<div class="img-mozaik india">
-				<img src="img/india.png">
+			  <a href="#"><img src="img/india.png"" style="width:100%">
+				  <div class="middle" style="background-color: #ccbaa3;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">India Trip</div>
+				  </div></a>
 			</div>
+
 			<div class="img-mozaik gaia">
-				<img src="img/gaia.png">
+			  <a href="#"><img src="img/gaia.png"" style="width:100%">
+				  <div class="middle" style="background-color: #825a37;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">Les plantes <br> de Gaïa</div>
+				  </div></a>
 			</div>
+
 			<div class="img-mozaik biomimetisme">
-				<img src="img/biomimetisme.png">
+			  <a href="#"><img src="img/biomimetisme.png"" style="width:100%">
+				  <div class="middle" style="background-color: #96c4aa;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">Biomimetisme</div>
+				  </div></a>
 			</div>
-			<div class="img-mozaik polar">
-				<img src="img/polar.png">
-			</div>
+
 			<div class="img-mozaik CMCAS">
-				<img src="img/CMCAS.png">
+			  <a href="#"><img src="img/CMCAS.png"" style="width:100%">
+				  <div class="middle" style="background-color: #825a37;">
+				  	<div class="cadre"></div>
+				  	<img class="bouton-etoile" src="img/bouton-etoile-b.png">
+				    <div class="text">Magazines <br> de la CMCAS</div>
+				  </div></a>
 			</div>
+
 
 			<div class="deroulement">
 				<img src="img/fleche.png">
@@ -148,8 +189,6 @@
 		</div>
 
 	</main>
-
-
 				<div class="plante-profil-ordi">
 					<img src="img/plante-profil-ordi.png">
 				</div>
@@ -158,7 +197,7 @@
 					<img src="img/plante-profil-mobile.png">
 				</div>
 
-		<div class="profil-logiciel">
+		<div class="profil-logiciel" id="ancre-profil">
 			<div class="profil-etoile">
 				<div class="conteneur2"> 
 					<img src="img/etoile-noir.png">
@@ -272,7 +311,7 @@
 				<div class="nom">
 					<div>
 						<img src="img/icone-diplome.png">
-						<h4> Concepteur <br>en communicatiob visuelle </h4>
+						<h4> Concepteur <br>en communication visuelle </h4>
 					</div>
 					<div>
 						<p class="annee">2017 <strong> > Diplôme +4 </strong> </p>
@@ -355,11 +394,11 @@
 	</div>
 
 	<div class="button-ordi"> 
-		<button class="cv"> CV PDF</button>
-		<button class="book"> BOOK PRINT </button>
+		<a href="#"> <button class="cv"> CV PDF </button> </a>
+		<a href="#"> <button class="book"> BOOK PRINT </button> </a>
 	</div>
 
-	<div class="contact"> <!--<ZONE CONTACT</a> -->	
+	<div class="contact" id="ancre-contact"> <!--<ZONE CONTACT</a> -->	
 			<!--<ZONE PLANTE</a> -->	
 			<div class="profil-etoile">
 				<div class="plante-contact-haut"> 
@@ -381,18 +420,19 @@
 							<div class="bloc-adresse-haut"> 
 								<div class="tel">
 									<img src="img/icone-tel.png">				
-									<!-- <p>06 70 23 98 15</p> -->
+									<p>06 70 23 98 15</p>
 								</div>
 
 								<div class="ville">
 									<img src="img/icone-ville.png">
-									<!-- <p>TOULOUSE</p> -->
+									<p>TOULOUSE</p>
 								</div>
 							</div>
 							<div class="mail">
 								<img src="img/icone-mail.png">
-							<!--<a href="mathildaigouy@gmail.com"> mathildaigouy@gmail.com</a> -->
+							<a href="mathildaigouy@gmail.com"> <p> mathildaigouy@gmail.com</p></a>
 							</div>
+
 							<!--<ZONE PLANTE</a> -->	
 				<div class="plante-contact-bas"> 
 					<img src="img/plante-contact1.png">
@@ -400,9 +440,15 @@
 					</div>		
 
 					<div class="contact-reseaux"> <!--<ZONE RÉESEAUX-->	
-						<img src="img/be.png">
-						<img src="img/in.png">
-						<img src="img/instagram.png">
+						<a href=" https://www.behance.net/mathildaaif0c0" target="_blank">
+							<img src="img/be-color.png">
+						</a>
+						<a href="https://www.linkedin.com/in/mathilda-aigouy-a718b4b1/" target="_blank">
+							<img src="img/in-color.png">
+						</a>
+						<a href="https://www.instagram.com/mathyldaigouy/" target="_blank">
+							<img src="img/instagram-color.png".png">
+						</a>
 					</div>
 				</div>
 

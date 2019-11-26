@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px){
+
+    /* -----------------------------------------------------NAV tablette/desktop + Logo ----------*/
+    nav.fixed {
+        right: 0;
+    }
+    nav ul {
+        list-style: none;
+        width: 330px;
+        display: flex;
+        float: right;
+        margin-right: 100px;
+    }
+
+    nav ul li {
+        font-size: 24px;
+        width: 110px;
+        height: 70px;
+    }
+
+    
+    nav ul li.nav-projet, nav ul li.nav-profil, nav ul li.nav-profil{
+        opacity: 0.8;
+    }
+
+    nav ul li.nav-projet:hover, nav ul li.nav-profil:hover, nav ul li.nav-profil:hover{
+        opacity: 1;
+    }
+
+    .logo-home {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .logo-home.fixed{
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+
+    .logo-noir {
+        width: 100px;
+    }
+
+    .logo-be, .logo-in, .logo-instagram {
+        width: 35px;
+        margin-top: 10px;
+    }
+}

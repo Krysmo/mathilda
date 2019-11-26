@@ -51,12 +51,13 @@
         display: flex;
         width: 100%;
         height: 50%;
-        opacity: 0.8;
+        
     }
 
     .header .bloc-droite .bloc-projet {
         background-color: #96c4aa; /* vert clair */
         width: 50%;
+        opacity: 0.8;
 
         display: flex;
         align-items: center;
@@ -69,11 +70,12 @@
         background-color: #043a1b; /* vert foncé */
         width: 50%;
         color: white;
+        opacity: 0.8;
 
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
+        align-items: center;
+        justify-content: center; 
     }
 
 
@@ -86,22 +88,32 @@
     .header .bloc-droite .bloc-contact {
         background-color: #c7d9e8; /* bleu clair */
         width: 50%;
-
+        opacity: 0.8;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
+
+    .header .bloc-droite .bloc-contact a, .header .bloc-droite .bloc-projet a{
+        color: #1a1a1a; /* noir gris */
+    }
+
+    .header .bloc-droite .bloc-cv a{
+        color: #fff; /* blanc */
+    }
+    
     .bloc-reseau {
         height: 50%;
         display: flex;
     }
 
-    .bloc-insta {
+    .header .bloc-insta {
         background-color: #043a1b; /* vert foncé */
         background-size: 20%;
         width: 50%;
+        opacity: 0.8;
 
         display: flex;
         align-items: center;
@@ -109,14 +121,16 @@
         flex-direction: column;
     }
 
-    .bloc-insta a {
+
+    .header .bloc-insta a {
         height: 70px;
     }
 
 
-    .bloc-link {
+    .header .bloc-link {
         background-color: #ccbaa3; /* beige */
         width: 50%;
+        opacity: 0.8;
 
         display: flex;
         align-items: center;
@@ -124,14 +138,15 @@
         flex-direction: column;
     }
 
-    .bloc-link a {
+    .header .bloc-link a {
         height: 65px;
     }
 
 
-    .bloc-behance {
+    .header .bloc-behance {
         height: 50%;
         background-color: #825A37;
+        opacity: 0.8;
 
         display: flex;
         align-items: center;
@@ -139,12 +154,16 @@
         flex-direction: column;
     }
 
-    .bloc-behance a {
+    .header .bloc-behance a {
         height: 45px;
     }
 
     .bloc-behance img {
         height: 50px;
+    }
+
+    .header .bloc-insta:hover, .header .bloc-projet:hover, .header .bloc-cv:hover, .header .bloc-contact:hover, .header .bloc-link:hover, .header .bloc-behance:hover {
+        opacity: 1;
     }
 
     header {
@@ -167,106 +186,79 @@
     }
 
 
-    /* -----------------------------------------------------NAV tablette/desktop + Logo ----------*/
-    nav.fixed {
-        right: 0;
-    }
-    nav ul {
-        list-style: none;
-        width: 330px;
-        display: flex;
-        float: right;
-        margin-right: 100px;
-    }
-
-    nav ul li {
-        font-size: 24px;
-        width: 110px;
-        height: 70px;
-    }
-
-    .logo-home {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 40px;
-        margin-left: 40px;
-    }
-    .logo-home.fixed{
-        position: fixed;
-        top: 0;
-        z-index: 99;
-    }
-
-    .logo-noir {
-        width: 100px;
-    }
-
-    .logo-be, .logo-in, .logo-instagram {
-        width: 35px;
-        margin-top: 14px;
-    }
-
-
+    
     /* -----------------------------------------------------PROJET tablette/desktop----------*/
+    
+
+    h3 {
+        font-size: 80px;
+    }
+
+    .conteneur{
+        margin: 0;
+    }
+
+
     .mosaique {
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0 auto;
         max-width: 1196px;
-
     }
 
     .img-mozaik {
         width: 33.33%;
+        position: relative;
     }
 
-    img:hover{
+    .img-mozaik:hover img{
         -webkit-filter: grayscale(100%);
+        transition:all 0.3s;
     } 
 
-    /* Container needed to position the overlay. Adjust the width as needed */
-.mosaik-titre {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
 
-}
-
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: #96c4aa;
-  color: #f1f1f1;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  font-family: "Champagne";
-  padding: 20px;
-  text-align: center;
-  width: 200px;
-
-
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.mosaik-titre:hover .overlay {
-  opacity: 1;
-}
-
-    h3 {
-        font-size: 80px;
-        margin: 50px 0 60px 0;
+    .img-mozaik .middle {
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        height: 55%;
+        
     }
 
-    .conteneur {
-        margin-bottom: 20px;
+    .img-mozaik:hover .middle {
+        opacity: 0.9;
+        -webkit-filter: grayscale(0%);
     }
 
+    .text {
+      font-family: "Champagne";
+      color: white;
+      font-size: 30px;
+      letter-spacing: 1px;
+    }
+
+    img.bouton-etoile {
+         width: 26%;
+         padding-bottom: 20px;
+    }
+
+    .img-mozaik .middle .cadre{
+        position: absolute;
+        border: 3px solid #fff;
+        width: 100%;
+        height: 100%;
+        left: 20px;
+        top: 20px;
+    }
 
     main p {
         font-size: 25px;
@@ -275,6 +267,7 @@
 
     main .projet-etoile{
         margin-top: 0px;
+        padding-top: 0px;
     }
 
 
@@ -301,18 +294,19 @@
         top: -275px;
     }
 
+
     .profil-logiciel {
         display: flex;
         align-items: center;
         justify-content: center;
         width: auto;
-        margin: 60px 90px;
+        margin: 50px 90px;
     }
 
     .profil-logiciel .logiciel img {
         width: auto;
         height: 30px;
-        padding: 14px 30px;
+        padding: 20px 30px;
     }
 
     .profil-etoile {
@@ -322,21 +316,36 @@
     .timeline {
         background-position: center;
     }
-
-    .button-ordi {
-        display: flex;
-    }
+    
 
     .timeline-bloc {
         width: 33.3vw;
         min-height: 350px;
     }
 
+    .button-ordi{
+        flex-direction: row;
+    }
+
+    .button-ordi a{
+        width: 50%;
+    }
+
+    .button-ordi button {
+        font-family: "Champagne";
+        font-size: 37px;
+    }
+
+    .button-ordi button:hover {
+        font-family: "Champagne Bolt";
+        font-size: 40px;
+    }
+
+
     /* -----------------------------------------------------Contact TABLETTE/DESTOCK----------*/
     .conteneur3 {
         justify-content: right;
         margin-left: 200px;
-        padding-top: 30px;
     }
 
     .plante-contact-haut {
@@ -351,7 +360,7 @@
         display: flex;
         width: 100%;
         overflow: hidden;
-        height: 420px;
+        height: 450px;
         padding-top: 0;
     }
 
