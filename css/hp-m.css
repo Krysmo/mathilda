@@ -31,7 +31,7 @@ header h1.header-nom, header h2.header-fonction {
 header h1.header-nom {
     font-family: Champagne Bolt;
     font-size: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 0;
     padding: 0 60px;
 }
@@ -84,8 +84,9 @@ main .projet-etoile img, .profil-etoile img {
 
 h3 {
     font-family: Champagne;
-    font-size: 55px;
-    letter-spacing: 2px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin: 0;
 }
 
 .conteneur {
@@ -93,7 +94,8 @@ h3 {
     align-items: center;
     justify-content: center;
     width: auto;
-    margin: 70px 0 20px 0;
+    padding: 65px 0 30px 0;
+    margin-top: 70px;
 
 }
 
@@ -176,6 +178,7 @@ main p {
     align-items: center;
     justify-content: center;
     width: auto;
+    padding: 35px 0;
 }
 
 
@@ -222,6 +225,10 @@ main p {
 }
 
 #fgauche img, #fdroite img{
+    width: 27px;
+}
+
+#fgauche img:hover, #fdroite img:hover{
     width: 35px;
 }
 
@@ -359,6 +366,7 @@ button.book {
     align-items: center;
     justify-content: center;
     width: auto;
+    padding: 35px 0 42px 0;
 }
 
 .profil-etoile {
@@ -373,7 +381,7 @@ button.book {
 }
 
 .plante-contact-haut img {
-    width: 300px;
+    width: 230px;
     padding: 0;
 }
 
@@ -381,8 +389,6 @@ button.book {
 .adresse {
     width: 100%;
     padding-top: 50px;
-
-
 }
 
 .tel, .ville, .mail {
@@ -391,7 +397,7 @@ button.book {
     justify-content: center;
     flex-direction: column;
     height: 150px;
-    padding: 15px 0;
+    padding: 20px 0 10px 0
 }
 
 .bloc-adresse-haut {
@@ -418,11 +424,11 @@ button.book {
 
 
 .tel img, .ville img {
-    width: 55px
+    width: 45px
 }
 
 .mail img {
-    width: 70px;
+    width: 60px;
 }
 
 .ville p{
@@ -441,8 +447,8 @@ button.book {
 
 .bloc-adresse p{
     font-family: Champagne;
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 25px;
+    margin: 15px 5px;
 }
 
 .contact-reseaux {
@@ -454,7 +460,7 @@ button.book {
 
 .contact-reseaux img {
     width: 80px;
-    padding: 20px;
+    padding: 7px;
     transition: transform .2s;
 }
 

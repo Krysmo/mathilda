@@ -18,13 +18,13 @@
         height: 70px;
     }
 
-    
-    nav ul li.nav-projet, nav ul li.nav-profil, nav ul li.nav-profil{
+    nav ul li.nav-projet, nav ul li.nav-profil, nav ul li.nav-contact{
         opacity: 0.8;
     }
 
-    nav ul li.nav-projet:hover, nav ul li.nav-profil:hover, nav ul li.nav-profil:hover{
+    nav ul li.nav-projet:hover, nav ul li.nav-profil:hover, nav ul li.nav-contact:hover{
         opacity: 1;
+        font-size: 26px;
     }
 
     .logo-home {
@@ -35,6 +35,7 @@
         margin-top: 40px;
         margin-left: 40px;
     }
+
     .logo-home.fixed{
         position: fixed;
         top: 0;
